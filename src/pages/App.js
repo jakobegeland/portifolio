@@ -16,7 +16,6 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/">
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/IN1060" component={In1060} />
@@ -25,7 +24,6 @@ function App() {
           <Route path="/IfiNavet" component={IfiNavet} />
           <Route path='*' component={AjAj} />
         </Switch>
-      </BrowserRouter>
     </div>
   );
 }
