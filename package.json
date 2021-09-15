@@ -1,8 +1,8 @@
 {
-  "homepage": "https://jakobegeland.github.io/portiolio",
+  "homepage": "https://jakobegeland.github.io/portiolio/",
   "name": "jakobegeland",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^5.11.5",
