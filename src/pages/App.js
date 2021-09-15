@@ -16,29 +16,16 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Router basename="/React">
+      <BrowserRouter basename="/React">
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/IN1060">
-            <In1060 />
-          </Route>
-          <Route path="/IN2000">
-            <In2000 />
-          </Route>
-          <Route path="/IN3010">
-            <In3010 />
-          </Route>
-          <Route path="/IfiNavet">
-            <IfiNavet />
-          </Route>
-          <Route path='*'>
-            <AjAj />
-          </Route>
-
+          <Route exact path="/" component={Home} />
+          <Route path="/IN1060" component={In1060} />
+          <Route path="/IN2000" component={In2000} />
+          <Route path="/IN3010" component={In3010} />
+          <Route path="/IfiNavet" component={IfiNavet} />
+          <Route path='*' component={AjAj} />
         </Switch>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
