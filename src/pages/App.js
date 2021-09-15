@@ -11,7 +11,7 @@ import AjAj from '../pages/projects/AjAj';
 
 
 //import Icon from './Icon';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
