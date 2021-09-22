@@ -219,8 +219,8 @@ a {
 }
 
 .prosjekt-container:hover {
-  opacity: 0.4;
-  border: 2px solid Black;
+  background-color: #F5F5F5;
+  box-shadow: 0px 1px 4px 1px #DCDCDC;
   border-radius: 2px;
 }
 

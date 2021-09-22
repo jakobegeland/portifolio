@@ -14,6 +14,7 @@ function ProfileBoks() {
         <div className="paragraph-light-forside-mail">
           Design, bruk og interaksjon, Master, UiO
         </div>
+        <a className="paragraph-light-forside-mail" href = "mailto: jakob.f.e@hotmail.no">Jakob.f.e@hotmail.no</a>
       </div>
     </div>
   );

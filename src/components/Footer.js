@@ -4,7 +4,7 @@ import '../style/App.css';
 function Footer(props) {
   return(
     <div className="footer-container">
-      <a className="paragraph-light-forside-mail" href = "mailto: jakob.f.e@hotmail.no">Jakob.f.e@hotmail.no</a>
+      <div className="paragraph-light-forside-mail">Jakob Follesø Egeland | 2021</div>
     </div>
 
   );
