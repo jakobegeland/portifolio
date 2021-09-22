@@ -10,6 +10,22 @@ a {
   text-decoration: none; /* no underline */
 }
 
+.footer-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+/* Brukes ikke */
+.href-tekst {
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
 .error {
   color: #FFFFFF;
   text-align: center;
@@ -132,6 +148,7 @@ a {
   text-align: center;
   color: #6A6A6A;
   margin-bottom: 40px;
+  text-decoration: underline;; /* no underline */
 }
 
 .paragraph-light-forside.paragraph-light-forside {
@@ -290,7 +307,7 @@ a {
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   .bakgrunn_image {
     padding-top: 200px;
   }
@@ -364,7 +381,7 @@ a {
   }
 
   .innhold-container {
-    margin-top: 80px;
+    margin-top: 30px;
   }
 
   .prosjekt-container-image {

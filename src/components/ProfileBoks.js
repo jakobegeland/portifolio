@@ -12,7 +12,7 @@ function ProfileBoks() {
           Jakob Follesø Egeland
         </div>
         <div className="paragraph-light-forside-mail">
-          Design, bruk og interaksjon, UiO
+          Design, bruk og interaksjon, Master, UiO
         </div>
       </div>
     </div>

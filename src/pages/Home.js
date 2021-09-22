@@ -2,7 +2,8 @@ import React from 'react';
 
 import InnholdBoks from '../components/InnholdBoks';
 import ProfileBoks from '../components/ProfileBoks';
-import Navfield from '../components/Navfield'
+import Navfield from '../components/Navfield';
+import Footer from '../components/Footer';
 
 function Home(props) {
   return(
@@ -15,6 +16,9 @@ function Home(props) {
       </div>
       <div className="section">
         <InnholdBoks />
+      </div>
+      <div className="section">
+        <Footer />
       </div>
     </div>
   );
