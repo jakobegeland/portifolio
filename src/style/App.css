@@ -6,6 +6,10 @@
   height: 100%;
 }
 
+a {
+  text-decoration: none; /* no underline */
+}
+
 .error {
   color: #FFFFFF;
   text-align: center;

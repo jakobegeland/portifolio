@@ -7,6 +7,8 @@ import ifinavet from  "../assets/Navet_figma.png";
 import in3010 from "../assets/IN3010_figma.png";
 import in2000 from "../assets/bergtatt_prototype.png";
 
+import {Link} from 'react-router-dom';
+
 
 
 
@@ -24,18 +26,26 @@ function InnholdBoks() {
   return (
       <div className="bakgrunn_image">
         <div className="project-title">Prosjekter</div>
+        <Link to="IN2000">
         <div className="innhold-container" id="In2000">
           <Prosjekt figur7={in2000} tittel="IN2000" tekst={in2000_tekst} avsnitt={in2000_tekst_2} hashtag="#Figma #Notion #Kotlin"/>
         </div>
+        </Link>
+        <Link to="IN3010">
         <div className="innhold-container" id="In3010">
           <Prosjekt figur7={in3010} tittel="IN3010" tekst={in3010_tekst} avsnitt={in3010_tekst_2} hashtag="#Figma #Miro #PD #RtD"/>
         </div>
+        </Link>
+        <Link to="IN1060">
         <div className="innhold-container" id="In1060">
           <Prosjekt figur7={in1060} tittel="IN1060" tekst={in1060_tekst} avsnitt={in1060_tekst_2} hashtag="#UCD #Blender #Arduino #3Dprinting"/>
         </div>
+        </Link>
+        <Link to="IfiNavet">
         <div className="innhold-container" id="IfiNavet">
           <Prosjekt figur7={ifinavet} tittel="IfiNavet" tekst={ifinavet_tekst} avsnitt={ifinavet_tekst_2} hashtag="#Figma #Jira #Slack"/>
         </div>
+        </Link>
       </div>
   );
 }
