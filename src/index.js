@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './style/index.css';
 import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Route, Switch, IndexRoute} from 'react-router-dom';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import In1060 from './pages/projects/In1060';
 import In2000 from './pages/projects/In2000';
@@ -16,9 +16,7 @@ ReactDOM.render(
   <BrowserRouter>
     <div className="App">
     <Switch>
-      <Route path={process.env.PUBLIC_URL + '/'} component={App}>
-        <IndexRoute component={Home} />
-      </Route>
+      <Route path={process.env.PUBLIC_URL + '/'} component={Home} />
       <Route path="/IN1060" component={In1060} />
       <Route path="/IN2000" component={In2000} />
       <Route path="/IN3010" component={In3010} />
