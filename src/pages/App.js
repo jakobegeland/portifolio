@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path={process.env.PUBLIC_URL + '/'} exact component={Home} />
           <Route path="/IN1060" component={In1060} />
           <Route path="/IN2000" component={In2000} />
           <Route path="/IN3010" component={In3010} />
