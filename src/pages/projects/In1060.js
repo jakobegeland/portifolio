@@ -10,8 +10,6 @@ import Divider from '../../components/Divider';
 import BackButton from '../../components/BackButton';
 import UioButton from '../../components/UioButton';
 
-import figur7 from "../../assets/Rectangle7.png";
-import widePic from "../../assets/Rectangle16.png";
 import indigo_header from "../../assets/indigo_headerv2.png";
 import indigo_hi from "../../assets/indigo_iterasjon.png";
 
