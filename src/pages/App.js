@@ -11,23 +11,23 @@ import AjAj from '../pages/projects/AjAj';
 
 
 //import Icon from './Icon';
-import {Router, Route, Switch, IndexRoute} from 'react-router-dom';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
-    <>
-    <Home />
-    <Router>
-      <Switch>
-        <Route path={process.env.PUBLIC_URL + '/'} component={Home} />
-        <Route path="/IN1060" component={In1060} />
-        <Route path="/IN2000" component={In2000} />
-        <Route path="/IN3010" component={In3010} />
-        <Route path="/IfiNavet" component={IfiNavet} />
-      </Switch>
-      </Router>
-    </>
-      );
+    <div className="App">
+      <BrowserRouter>
+        <Switch>
+          <Route path={process.env.PUBLIC_URL + '/'} component={Home} />
+          <Route path="/IN1060" component={In1060} />
+          <Route path="/IN2000" component={In2000} />
+          <Route path="/IN3010" component={In3010} />
+          <Route path="/IfiNavet" component={IfiNavet} />
+          //<Route path='*' component={AjAj} />
+        </Switch>
+      </BrowserRouter>
+    </div>
+  );
 }
 
 export default App;

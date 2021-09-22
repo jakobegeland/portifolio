@@ -7,7 +7,7 @@ import {BrowserRouter as Router, Route, Switch, Link, Redirect, useHistory} from
 function BackButton(props) {
   let history = useHistory();
   function clickHandler() {
-    history.push("/");
+    history.push(process.env.PUBLIC_URL + '/');
   }
   return(
     <div className="back_btn_left">
