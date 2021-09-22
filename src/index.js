@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './style/index.css';
 import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Route, Switch, IndexRoute} from 'react-router-dom';
 
 import In1060 from './pages/projects/In1060';
 import In2000 from './pages/projects/In2000';
