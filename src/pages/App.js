@@ -1,5 +1,7 @@
 import React from 'react';
 import Home from '../pages/Home';
+import PdfLoader from '../pages/PdfLoader';
+
 
 //Prosjekt-sider
 import In1060 from '../pages/projects/In1060';
@@ -23,6 +25,7 @@ function App() {
           <Route path="/IN2000" component={In2000} />
           <Route path="/IN3010" component={In3010} />
           <Route path="/IfiNavet" component={IfiNavet} />
+          <Route path="/CV" component={PdfLoader} />
           <Route path='*' component={AjAj} />
         </Switch>
       </BrowserRouter>
