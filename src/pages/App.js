@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
         <Switch>
-          <Route exact path={process.env.PUBLIC_URL + "/"} component={App}>
+          <Route exact path={process.env.PUBLIC_URL + '/'} component={App}>
             <IndexRoute component={Home} />
           </Route>
           <Route path="/IN1060" component={In1060} />
