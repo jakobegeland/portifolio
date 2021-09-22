@@ -23,7 +23,6 @@ ReactDOM.render(
       <Route path="/IN2000" component={In2000} />
       <Route path="/IN3010" component={In3010} />
       <Route path="/IfiNavet" component={IfiNavet} />
-      <Route path='*' component={AjAj} />
     </Switch>
     </div>
   </BrowserRouter>,
