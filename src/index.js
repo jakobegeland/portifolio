@@ -16,7 +16,7 @@ ReactDOM.render(
   <BrowserRouter>
     <div className="App">
     <Switch>
-      <<Route path={process.env.PUBLIC_URL + '/'} component={App}>
+      <Route path={process.env.PUBLIC_URL + '/'} component={App}>
         <IndexRoute component={Home} />
       </Route>
       <Route path="/IN1060" component={In1060} />
